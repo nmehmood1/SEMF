@@ -110,7 +110,7 @@ isotopeArray = np.array(mostStableIsotopes) # convert to array to use as x and y
 
 sns.set()
 plt.plot((isotopeArray[:,1])*(isotopeArray[:,2]),isotopeArray[:,0],color='k',linewidth=1.0,marker='.',ms=1.0)
-plt.xlabel('Atomic Number A')
+plt.xlabel('Nucleon Number A')
 plt.ylabel('Binding Energy per Nucleon (MeV)')
 plt.title('B/A vs. A')
 plt.savefig('binding_energy.png')
