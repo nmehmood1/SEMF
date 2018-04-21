@@ -1,0 +1,2 @@
+# SEMF
+This is a script to calculate binding energies of different isotopes using the Semi-empirical Mass Formula. The program accepts Z and A values and returns the binding energy and the binding energy per nucleon. The next part uses Z and tests A = Z, 2Z, 3Z and returns the result with highest B/A. The program then loops through Z = 1-100 and returns the most stable using the previous method before finally plotting a graph of B/A vs A.
